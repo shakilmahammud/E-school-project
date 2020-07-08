@@ -112,18 +112,21 @@ body{
 .book-item{
     background-color:#F8FFFB;
     border-radius: 10px;
-    width:260px;
-    height:230px;
-    padding: 30px;
+    margin-bottom:20px;
+    height:270px;
 }
 .book-item img{
      width:66px;
+     margin-top:52px;
+     margin-bottom:22px;
 }
 .book-item h3{
     font-family: 'Poppins', sans-serif;
-    font-size:16px;
-    margin-top:15px;
-    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color:#413960;;
 }
 .book-item p{
     font-family: 'Poppins', sans-serif;
@@ -131,7 +134,7 @@ body{
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    color: #6C6B6B;
+    color: #585859;
 
 }
 .book-item-shadow{
@@ -153,9 +156,26 @@ body{
 }
 .course-header{
     padding-bottom:40px;
+    color: #413960;
 }
 .course-item{
     border-radius: 10px;
+}
+.course-item h5{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+}
+.course-item p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+    font-family: 'Poppins', sans-serif;
 }
 .card-img-top{
     margin-top:15px;
@@ -189,6 +209,8 @@ body{
 
 .testimonial img{
     width: 120px;
+    height:120px;
+    border-radius:50%;
     margin-top: 20px;
 }
 .testimonial-text{
@@ -205,7 +227,7 @@ body{
 }
 /*==================footer part css ===============*/
 #footer{
-    background: #000;
+    background:#282531;
 }
 .footer-text{
    padding-top: 60px;
@@ -232,10 +254,11 @@ body{
 
 }
 .footer-course-list{
-    margin-right:70px;
+    margin-right:60px;
+     
 }
 footer{
-    color:#f0fff0ad;
+    color:#CDCDCD;
     font-family: 'Roboto', sans-serif;
     margin-top: 80px;
     padding-bottom:20px;

@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding:0;
+    background-color: #E5E5E5;
 }
 /*=======common button css===========*/
 .common-button{
@@ -225,6 +226,24 @@ body{
         line-height: 20px;
         color: #000;
 }
+/*================extra subscribe part css =========*/
+#subscribe{
+    padding-top:60px;
+    padding-bottom:60px;
+    background-color: #F0FFF0;
+}
+#subscribe input{
+    width:300px;
+    outline:0;
+    border:none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgb(194, 188, 188);
+    height:50px;
+    margin-right: 10px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
 /*==================footer part css ===============*/
 #footer{
     background:#282531;
@@ -254,7 +273,7 @@ body{
 
 }
 .footer-course-list{
-    margin-right:60px;
+    margin-right:60px ;
      
 }
 footer{

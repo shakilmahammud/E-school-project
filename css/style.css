@@ -287,7 +287,7 @@ footer a{
     color:#21B573;
     font-family: 'Roboto', sans-serif;
 }
-/*==================Responsive part ===========*/
+/*================== Extra style Responsive part ===========*/
 @media only screen and (max-width:768px) {
     .navbar-light .navbar-nav .active>.nav-link::after{
         opacity:0;

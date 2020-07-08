@@ -287,3 +287,39 @@ footer a{
     color:#21B573;
     font-family: 'Roboto', sans-serif;
 }
+/*==================Responsive part ===========*/
+@media only screen and (max-width:768px) {
+    .navbar-light .navbar-nav .active>.nav-link::after{
+        opacity:0;
+    }
+    .navbar-light .navbar-nav .nav-item .common-button{
+        opacity:0;
+    }
+    .navbar-nav .nav-item .nav-link:hover::after{
+        opacity:0;
+     }
+     .testimonial img{
+         margin-right:40%;
+     }
+     .course-footer-item .col-md-6{
+         width: 50%;
+     }
+     .banner-text .common-button{
+         margin-bottom:50px;
+     }
+     .banner-text{
+        margin-top:50px;
+     }
+     footer{
+         margin-left:20px;
+         margin-right:20px;
+     }
+  }
+  @media only screen and (max-width:1000px) {
+    .navbar-light .navbar-nav .active>.nav-link::after{
+        opacity:0;
+    }
+    .course-footer-item .col-md-6{
+        width: 50%;
+    }
+}

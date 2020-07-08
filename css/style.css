@@ -1,0 +1,236 @@
+body{
+    margin:0;
+    padding:0;
+}
+/*=======common button css===========*/
+.common-button{
+    padding: 12px 36px;
+    background: #21B573;
+    border-radius: 33px;
+    margin-top:0;
+    margin-left:0;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+}
+/*============ exta add style css========*/
+.common-button:hover{
+    background:#fff;
+    border:1px solid #21B573;
+    color:#000;
+}
+/*=======nav bar part css=======*/
+#top-bg{
+    background:#F0FFF0;}
+.navbar{
+    padding-top:30px;
+}
+.navbar .navbar-brand img{
+    width:200px;
+}
+.navbar .navbar-nav .nav-item {
+    padding-left:25px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    position: relative;
+}
+/*============ exta add style css========*/
+.navbar .navbar-nav .nav-item .nav-link::after{
+    position: absolute;
+    content:'';
+    width:5px;
+    height:5px;
+    background:#21B573;
+    border-radius:50%;
+    left:50%;
+    bottom:0;
+    transform:translateX(-50%,-50%);
+    opacity:0;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #21B573;
+}
+.navbar-light .navbar-nav .active>.nav-link::after{
+    opacity:1;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #21B573;
+}
+.navbar-nav .nav-item .nav-link:hover::after{
+   opacity:1;
+}
+/*==============banner text part css==========*/
+.banner-text{
+    margin-top:75px;
+    margin-bottom:75px;
+}
+.banner-text h4{
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A
+}
+.banner-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight:700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+}
+.banner-text h1 span{
+    color:#21B573;
+}
+.banner-text p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+
+}
+.banner-text img{
+    width:100%;
+}
+/*===================book part css ============*/
+.book-item{
+    background-color:#F8FFFB;
+    border-radius: 10px;
+    width:260px;
+    height:230px;
+    padding: 30px;
+}
+.book-item img{
+     width:66px;
+}
+.book-item h3{
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    margin-top:15px;
+    font-size: 22px;
+}
+.book-item p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C6B6B;
+
+}
+.book-item-shadow{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(194, 188, 188);
+
+}
+/*============ exta add style css========*/
+.book-item:hover{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(194, 188, 188);
+
+}
+/*============course part css========*/
+#course{
+    padding-top:60px;
+}
+.course-header{
+    padding-bottom:40px;
+}
+.course-item{
+    border-radius: 10px;
+}
+.card-img-top{
+    margin-top:15px;
+    
+}
+.card-body{
+    padding-left:5px;
+}
+.course-footer-item img{
+    width:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.footer-photo{
+    margin-bottom:10px;
+}
+.card {
+    border: none;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+.card:hover{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px rgb(194, 188, 188);
+}
+/*===============testimonial part csss ===========*/
+#other{
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.testimonial img{
+    width: 120px;
+    margin-top: 20px;
+}
+.testimonial-text{
+    padding-left:40px;
+    padding-top:20px;
+}
+.testimonial p{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000;
+}
+/*==================footer part css ===============*/
+#footer{
+    background: #000;
+}
+.footer-text{
+   padding-top: 60px;
+}
+#footer p{
+      font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #fff;
+}
+.footer-text h4{
+   color:#fff;
+   font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size:22px;
+}
+.footer-text a{
+    text-decoration: none;
+    color:#F0FFF0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.footer-course-list{
+    margin-right:70px;
+}
